@@ -7,6 +7,8 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+" Great plugins resource; http://vimawesome.com/
+
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
@@ -27,6 +29,10 @@ Plugin 'StanAngeloff/php.vim'
 
 " taglist
 Plugin 'taglist.vim'
+
+" easytags ; needs vim-misc as well
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-easytags'
 
 
 " All of your Plugins must be added before the following line
